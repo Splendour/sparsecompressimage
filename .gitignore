@@ -1,0 +1,44 @@
+# Project-specific .gitignore
+
+# imgui settings
+imgui.ini
+
+# build folders
+build/
+bin/
+out/
+
+#-----------------------------------------------------------------------------
+# Visual Studio
+.vs/
+enc_temp_folder/
+*.vcxproj.user
+
+
+#-----------------------------------------------------------------------------
+# C++.gitignore
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+#*.exe
+*.out
+*.app
+#-----------------------------------------------------------------------------
